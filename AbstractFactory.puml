@@ -1,0 +1,52 @@
+@startuml
+class AbstractFactory.AbstractFactory {
++ {static} void main(String[])
+}
+interface AbstractFactory.AbstractFactory$Meat {
+~ void print()
+}
+class AbstractFactory.AbstractFactory$Chicken {
++ void print()
+}
+class AbstractFactory.AbstractFactory$Pork {
++ void print()
+}
+interface AbstractFactory.AbstractFactory$Garnish {
+~ void print()
+}
+class AbstractFactory.AbstractFactory$Rice {
++ void print()
+}
+interface AbstractFactory.AbstractFactory$BreakfastFactory {
+~ Meat createMeat()
+~ Garnish createGarnish()
+}
+class AbstractFactory.AbstractFactory$BreakfastOne {
++ Meat createMeat()
++ Garnish createGarnish()
+}
+class AbstractFactory.AbstractFactory$Buckwheat {
++ void print()
+}
+class AbstractFactory.AbstractFactory$BreakfastTwo {
++ Meat createMeat()
++ Garnish createGarnish()
+}
+
+
+AbstractFactory.AbstractFactory +.. AbstractFactory.AbstractFactory$Meat
+AbstractFactory.AbstractFactory +.. AbstractFactory.AbstractFactory$Chicken
+AbstractFactory.Meat <|.. AbstractFactory.AbstractFactory$Chicken
+AbstractFactory.AbstractFactory +.. AbstractFactory.AbstractFactory$Pork
+AbstractFactory.Meat <|.. AbstractFactory.AbstractFactory$Pork
+AbstractFactory.AbstractFactory +.. AbstractFactory.AbstractFactory$Garnish
+AbstractFactory.AbstractFactory +.. AbstractFactory.AbstractFactory$Rice
+AbstractFactory.Garnish <|.. AbstractFactory.AbstractFactory$Rice
+AbstractFactory.AbstractFactory +.. AbstractFactory.AbstractFactory$BreakfastFactory
+AbstractFactory.AbstractFactory +.. AbstractFactory.AbstractFactory$BreakfastOne
+AbstractFactory.BreakfastFactory <|.. AbstractFactory.AbstractFactory$BreakfastOne
+AbstractFactory.AbstractFactory +.. AbstractFactory.AbstractFactory$Buckwheat
+AbstractFactory.Garnish <|.. AbstractFactory.AbstractFactory$Buckwheat
+AbstractFactory.AbstractFactory +.. AbstractFactory.AbstractFactory$BreakfastTwo
+AbstractFactory.BreakfastFactory <|.. AbstractFactory.AbstractFactory$BreakfastTwo
+@enduml
