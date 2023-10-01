@@ -1,4 +1,4 @@
-package Builder;
+package GeneratingPatterns.Builder;
 
 public class Main {
     //  Соусы для наших салатов
@@ -6,7 +6,7 @@ public class Main {
         MUSTARD, CHEESE
     }
     /*
-        Класс, объекты которого будут создаваться при помощи паттерна Builder. Состоит из полей, сеттеров и переопределенного метода toString(). На схеме паттерна обозначен как Product.
+        Класс, объекты которого будут создаваться при помощи паттерна GeneratingPatterns.AbstractFactory.Singlton.AbstractFactory.Builder. Состоит из полей, сеттеров и переопределенного метода toString(). На схеме паттерна обозначен как Product.
     */
     static class Salad{
         private String vegetables;
@@ -100,7 +100,7 @@ public class Main {
         }
     }
     /*
-        SaladDirector - создает объекты на основе абстрактного интерфейса Builder.
+        SaladDirector - создает объекты на основе абстрактного интерфейса GeneratingPatterns.AbstractFactory.Singlton.AbstractFactory.Builder.
     */
     static class SaladDirector{
         SaladBuilder builder;

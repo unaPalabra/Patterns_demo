@@ -1,8 +1,8 @@
-package Prototype;
+package GeneratingPatterns.Prototype;
 
 import java.util.Objects;
 
-//  Создаем класс Car и реализуем в нем интерфейс Prototype.
+//  Создаем класс Car и реализуем в нем интерфейс GeneratingPatterns.AbstractFactory.Singlton.AbstractFactory.Prototype.
 //  Объекты этого класса мы будем клонировать.
 //  Объект этого класса будет выступать в качестве поля класса Car.
 //  Одно из полей класса содержит объект Tyre.

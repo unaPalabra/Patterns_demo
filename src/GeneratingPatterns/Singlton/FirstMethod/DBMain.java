@@ -1,6 +1,4 @@
-package Singlton.FirstMethod;
-
-import Singlton.FirstMethod.DataBase;
+package GeneratingPatterns.Singlton.FirstMethod;
 
 class DBMain{
     public static void main(String[] args) {

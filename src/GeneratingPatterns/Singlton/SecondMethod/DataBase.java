@@ -1,4 +1,4 @@
-package Singlton.SecondMethod;
+package GeneratingPatterns.Singlton.SecondMethod;
 
 public class DataBase {
 

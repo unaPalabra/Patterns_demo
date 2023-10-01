@@ -1,4 +1,4 @@
-package Prototype;
+package GeneratingPatterns.Prototype;
 
 //Проверим создание клонов
 class Main{

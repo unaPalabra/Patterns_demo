@@ -1,4 +1,4 @@
-package FactoryMetod;
+package GeneratingPatterns.FactoryMetod;
 
 public class Main {
 

@@ -1,8 +1,8 @@
-package Prototype;
+package GeneratingPatterns.Prototype;
 
 import java.util.Objects;
 
-//  Создаем класс Tyre и реализуем в нем интерфейс Prototype.
+//  Создаем класс Tyre и реализуем в нем интерфейс GeneratingPatterns.AbstractFactory.Singlton.AbstractFactory.Prototype.
 //  Объекты этого класса мы будем клонировать.
 //  Объект этого класса будет выступать в качестве поля класса Car.
 class Tyre implements Prototype {
@@ -40,7 +40,7 @@ class Tyre implements Prototype {
                 '}';
     }
 
-    //  Переопределяем метод getClone() интерфейса Prototype.
+    //  Переопределяем метод getClone() интерфейса GeneratingPatterns.AbstractFactory.Singlton.AbstractFactory.Prototype.
     @Override
     public Object getClone() {
         //  Создает клон объекта Tyre и возвращает его в виде объекта Object.

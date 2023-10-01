@@ -1,4 +1,4 @@
-package Singlton.FirstMethod;
+package GeneratingPatterns.Singlton.FirstMethod;
 
 public class DataBase {
     private static int count = 0;
