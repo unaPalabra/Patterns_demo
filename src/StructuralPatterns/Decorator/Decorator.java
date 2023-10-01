@@ -1,4 +1,4 @@
-package Decorator;
+package StructuralPatterns.Decorator;
 
 public class Decorator {
     //  Общий интерфейс для всех

@@ -1,4 +1,4 @@
-package Bridge;
+package StructuralPatterns.Bridge;
 
 // Теперь попробуем, как это работает
 public class Main {

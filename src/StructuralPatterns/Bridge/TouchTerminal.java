@@ -1,4 +1,4 @@
-package Bridge;
+package StructuralPatterns.Bridge;
 
 // конкретная имплементация интерфейса Terminal
 public class TouchTerminal implements Terminal {

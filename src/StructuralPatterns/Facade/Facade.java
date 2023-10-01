@@ -1,4 +1,4 @@
-package Facade;
+package StructuralPatterns.Facade;
 
 // Это и есть класс фасад
 public class Facade {

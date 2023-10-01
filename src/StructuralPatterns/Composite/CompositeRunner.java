@@ -1,4 +1,4 @@
-package Composite;
+package StructuralPatterns.Composite;
 
 class CompositeRunner {
     public static void main(String[] args) {

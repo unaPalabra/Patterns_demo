@@ -1,4 +1,4 @@
-package Bridge;
+package StructuralPatterns.Bridge;
 
 //  Создадим абстрактный класс Fastfood, он и будет нашей абстракцией
 public abstract class Fastfood {

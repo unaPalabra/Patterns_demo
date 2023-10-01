@@ -1,4 +1,4 @@
-package Composite;
+package StructuralPatterns.Composite;
 
 //  общий интерфейс (свойства) для всех предметов в коробках,
 // в нашем случае свойство - цена одного элемента

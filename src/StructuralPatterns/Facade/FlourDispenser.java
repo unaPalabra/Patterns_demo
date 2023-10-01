@@ -1,4 +1,4 @@
-package Facade;
+package StructuralPatterns.Facade;
 
 // дозатор муки
 class FlourDispenser {

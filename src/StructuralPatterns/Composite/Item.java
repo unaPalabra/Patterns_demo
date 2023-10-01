@@ -1,4 +1,4 @@
-package Composite;
+package StructuralPatterns.Composite;
 
 // минимальный компонент
 class Item implements CustomItem {

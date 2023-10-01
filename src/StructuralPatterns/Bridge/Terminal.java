@@ -1,4 +1,4 @@
-package Bridge;
+package StructuralPatterns.Bridge;
 
 //интерфейс терминала, на схеме интерфейс Implementor
 public interface Terminal {

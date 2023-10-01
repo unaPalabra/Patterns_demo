@@ -1,4 +1,4 @@
-package Facade;
+package StructuralPatterns.Facade;
 
 // дозатор €иц
 class EggDispenser {
