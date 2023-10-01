@@ -23,5 +23,6 @@ class Main{
         car.getTyre().setName("Dunlop");
         System.out.println(car);
         System.out.println(car2);
+        System.out.println(car.equals(car2));
     }
 }

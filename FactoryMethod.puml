@@ -1,0 +1,36 @@
+@startuml
+class FactoryMetod.Main {
++ {static} void main(String[])
+~ {static} DeliveryFactory supplyDelivery(int)
+}
+interface FactoryMetod.Main$Delivery {
+~ void supply()
+}
+class FactoryMetod.Main$Human {
++ void supply()
+}
+class FactoryMetod.Main$Bike {
++ void supply()
+}
+interface FactoryMetod.Main$DeliveryFactory {
+~ Delivery createDelivery()
+}
+class FactoryMetod.Main$BikeDeliveryFactory {
++ Delivery createDelivery()
+}
+class FactoryMetod.Main$HumanDeliveryFactory {
++ Delivery createDelivery()
+}
+
+
+FactoryMetod.Main +.. FactoryMetod.Main$Delivery
+FactoryMetod.Main +.. FactoryMetod.Main$Human
+FactoryMetod.Delivery <|.. FactoryMetod.Main$Human
+FactoryMetod.Main +.. FactoryMetod.Main$Bike
+FactoryMetod.Delivery <|.. FactoryMetod.Main$Bike
+FactoryMetod.Main +.. FactoryMetod.Main$DeliveryFactory
+FactoryMetod.Main +.. FactoryMetod.Main$BikeDeliveryFactory
+FactoryMetod.DeliveryFactory <|.. FactoryMetod.Main$BikeDeliveryFactory
+FactoryMetod.Main +.. FactoryMetod.Main$HumanDeliveryFactory
+FactoryMetod.DeliveryFactory <|.. FactoryMetod.Main$HumanDeliveryFactory
+@enduml
